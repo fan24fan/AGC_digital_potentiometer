@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.2)  19 MAY 2024 02:10
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.2)  19 MAY 2024 02:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1051,6 +1051,9 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@quotereset=\count498
  (./elegantpaper-cn.aux
 
+LaTeX Warning: Label `lu2023' multiply defined.
+
+
 LaTeX Warning: Label `按键' multiply defined.
 
 
@@ -1208,35 +1211,44 @@ LaTeX Warning: No \author given.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 52.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 57.
+(Font)              scaled to size 7.0pt on input line 55.
+
+Overfull \hbox (12.65945pt too wide) in paragraph at lines 55--56
+[]\TU/KaiTi(0)/m/n/10 本 文 完 全 采 用 \TU/texgyretermes(0)/m/n/10 L[]T[]X \TU/KaiTi
+(0)/m/n/10 书 写，|  工 程 细 节 和 完 整 代 码 见 \TU/texgyretermes(0)/m/n/10 GitHub: [][]$
+[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][] []
+ []
+
+LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 59.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 57.
+(Font)              scaled to size 14.4pt on input line 59.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 59.
+(Font)              scaled to size 12.0pt on input line 61.
 File: image/DAC电阻网络.png Graphic file (type bmp)
 <image/DAC电阻网络.png>
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
-(Font)              scaled to size 10.95pt on input line 67.
-File: image/VCA821的AGC1.jpg Graphic file (type bmp)
-<image/VCA821的AGC1.jpg>
+(Font)              scaled to size 10.95pt on input line 69.
 [1
 
-] [2] [3]
-Overfull \hbox (48.86562pt too wide) in paragraph at lines 183--184
+]
+File: image/VCA821的AGC1.jpg Graphic file (type bmp)
+<image/VCA821的AGC1.jpg>
+ [2] [3] [4]
+Overfull \hbox (48.86562pt too wide) in paragraph at lines 185--186
 []\TU/texgyretermes(0)/b/n/10.95 PIC18F45K22\TU/SimSun(0)/m/n/10.95 ：| \TU/texg
 yretermes(0)/m/n/10.95 PIC18F45K22 \TU/SimSun(0)/m/n/10.95 是 一 款 高 性 能 的 \TU/te
 xgyretermes(0)/m/n/10.95 8 \TU/SimSun(0)/m/n/10.95 位 单 片 机，|  但 其 性 能 和 功 能 扩 展
  性 与 \TU/texgyretermes(0)/m/n/10.95 STM32F103ZET6
  []
 
-[4]
 File: image/硬件框图.png Graphic file (type bmp)
 <image/硬件框图.png>
- [5]
+[5]
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 228.
+(Font)              scaled to size 8.0pt on input line 230.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 228.
+(Font)              scaled to size 6.0pt on input line 230.
 File: image/两级放大电路.png Graphic file (type bmp)
 <image/两级放大电路.png>
 File: image/有效值检波电路.png Graphic file (type bmp)
@@ -1263,34 +1275,34 @@ File: image/AD5293程序流程图.jpg Graphic file (type bmp)
 File: image/主程序.jpg Graphic file (type bmp)
 <image/主程序.jpg>
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 433.
+nput line 435.
  [13] [14]
-Overfull \hbox (31.7922pt too wide) in paragraph at lines 479--495
+Overfull \hbox (31.7922pt too wide) in paragraph at lines 481--497
  [][] 
  []
 
 
-Overfull \hbox (31.7922pt too wide) in paragraph at lines 501--517
+Overfull \hbox (31.7922pt too wide) in paragraph at lines 503--519
  [][] 
  []
 
 
-Overfull \hbox (31.7922pt too wide) in paragraph at lines 523--539
+Overfull \hbox (31.7922pt too wide) in paragraph at lines 525--541
  [][] 
  []
 
 [15] [16] [17]
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 621.
+(Font)              scaled to size 10.95pt on input line 623.
 
-Underfull \hbox (badness 4416) in paragraph at lines 646--648
+Underfull \hbox (badness 4416) in paragraph at lines 648--650
 []\TU/texgyretermes(0)/m/it/10.95 stm32f103 |\TU/SimSun(0)/m/it/10.95 — —|  外 部
  中 断 和 事 件  |— —|  检 测 按 键 按 下 点 灯\TU/texgyretermes(0)/m/n/10.95 . [][]$[][][][
 ][] [] [] [] [][][][] [] [][][][] [] [][][] [] [][] []
  []
 
 
-Underfull \hbox (badness 5862) in paragraph at lines 662--664
+Underfull \hbox (badness 5862) in paragraph at lines 664--666
 []\TU/SimSun(0)/m/it/10.95 基 于 \TU/texgyretermes(0)/m/it/10.95 VCA821 \TU/SimSu
 n(0)/m/it/10.95 的 \TU/texgyretermes(0)/m/it/10.95 AGC\TU/SimSun(0)/m/it/10.95 ，
 |  电 压 自 动 增 益 控 制 设 计\TU/texgyretermes(0)/m/n/10.95 . [][]$[][][][][] [] [] []
@@ -1338,12 +1350,12 @@ Package logreq Info: Writing requests to 'elegantpaper-cn.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29650 strings out of 474773
- 604234 string characters out of 5761290
+ 29652 strings out of 474773
+ 604333 string characters out of 5761290
  2055842 words of memory out of 5000000
- 51333 multiletter control sequences out of 15000+600000
- 566324 words of font info for 121 fonts, out of 8000000 for 9000
+ 51334 multiletter control sequences out of 15000+600000
+ 566332 words of font info for 122 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,19n,108p,688b,1938s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,19n,108p,688b,1937s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on elegantpaper-cn.pdf (26 pages).
