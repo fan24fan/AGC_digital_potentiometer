@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.2)  19 MAY 2024 02:59
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.2)  19 MAY 2024 14:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1256,53 +1256,52 @@ File: image/有效值检波电路.png Graphic file (type bmp)
  [6]
 File: image/ADC.png Graphic file (type bmp)
 <image/ADC.png>
- [7]
+ [7] [8]
 File: image/ADS1115简介.png Graphic file (type bmp)
 <image/ADS1115简介.png>
- [8]
+ [9]
 File: image/IIC时序.png Graphic file (type bmp)
 <image/IIC时序.png>
- [9]
+ [10]
 File: image/ADS1115程序流程图.jpg Graphic file (type bmp)
 <image/ADS1115程序流程图.jpg>
- [10]
 File: image/ad5293芯片结构.png Graphic file (type bmp)
 <image/ad5293芯片结构.png>
- [11]
+ [11] [12]
 File: image/AD5293程序流程图.jpg Graphic file (type bmp)
 <image/AD5293程序流程图.jpg>
- [12]
+ [13]
 File: image/主程序.jpg Graphic file (type bmp)
 <image/主程序.jpg>
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 435.
- [13] [14]
-Overfull \hbox (31.7922pt too wide) in paragraph at lines 481--497
+nput line 461.
+ [14]
+Overfull \hbox (31.7922pt too wide) in paragraph at lines 507--523
  [][] 
  []
 
 
-Overfull \hbox (31.7922pt too wide) in paragraph at lines 503--519
+Overfull \hbox (31.7922pt too wide) in paragraph at lines 529--545
  [][] 
  []
 
 
-Overfull \hbox (31.7922pt too wide) in paragraph at lines 525--541
+Overfull \hbox (31.7922pt too wide) in paragraph at lines 551--567
  [][] 
  []
 
 [15] [16] [17]
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 623.
-
-Underfull \hbox (badness 4416) in paragraph at lines 648--650
+(Font)              scaled to size 10.95pt on input line 649.
+ [18]
+Underfull \hbox (badness 4416) in paragraph at lines 674--676
 []\TU/texgyretermes(0)/m/it/10.95 stm32f103 |\TU/SimSun(0)/m/it/10.95 — —|  外 部
  中 断 和 事 件  |— —|  检 测 按 键 按 下 点 灯\TU/texgyretermes(0)/m/n/10.95 . [][]$[][][][
 ][] [] [] [] [][][][] [] [][][][] [] [][][] [] [][] []
  []
 
 
-Underfull \hbox (badness 5862) in paragraph at lines 664--666
+Underfull \hbox (badness 5862) in paragraph at lines 690--692
 []\TU/SimSun(0)/m/it/10.95 基 于 \TU/texgyretermes(0)/m/it/10.95 VCA821 \TU/SimSu
 n(0)/m/it/10.95 的 \TU/texgyretermes(0)/m/it/10.95 AGC\TU/SimSun(0)/m/it/10.95 ，
 |  电 压 自 动 增 益 控 制 设 计\TU/texgyretermes(0)/m/n/10.95 . [][]$[][][][][] [] [] []
@@ -1317,7 +1316,7 @@ File: 数字电位器真1.pdf Graphic file (type pdf)
 <use 数字电位器真1.pdf, page 1>
 File: 数字电位器真1.pdf Graphic file (type pdf)
 <use 数字电位器真1.pdf, page 1>
-[18] [19]
+[19]
 File: 数字电位器真1.pdf Graphic file (type pdf)
 <use 数字电位器真1.pdf, page 1>
 File: 数字电位器真1.pdf Graphic file (type pdf)
@@ -1333,29 +1332,27 @@ File: image/PCB正面.png Graphic file (type bmp)
 <image/PCB正面.png>
 File: image/PCB背面.png Graphic file (type bmp)
 <image/PCB背面.png>
- [21] (./code/main.c [22] [23] [24] [25]) [26]
-(./elegantpaper-cn.aux)
+ [21] (./code/main.c [22] [23] [24] [25]) [26] (./elegantpaper-cn.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
  ***********
 
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `elegantpaper-cn.out' has not changed.
-(rerunfilecheck)             Checksum: FEF16AE357502F67E2A739B196D6F0ED;5513.
+(rerunfilecheck)             Checksum: A68DB4A4FD236BD9772C7F330084B76F;5887.
 Package logreq Info: Writing requests to 'elegantpaper-cn.run.xml'.
 \openout1 = `elegantpaper-cn.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29652 strings out of 474773
- 604333 string characters out of 5761290
+ 29654 strings out of 474773
+ 604362 string characters out of 5761290
  2055842 words of memory out of 5000000
- 51334 multiletter control sequences out of 15000+600000
+ 51336 multiletter control sequences out of 15000+600000
  566332 words of font info for 122 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,19n,108p,688b,1937s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,19n,108p,688b,1929s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on elegantpaper-cn.pdf (26 pages).

@@ -34,68 +34,75 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.5}ADC采样模块}{8}{subsection.2.5}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces ADC采样模块}}{8}{figure.caption.6}\protected@file@percent }
 \newlabel{fig:adc_sampling}{{6}{8}{ADC采样模块}{figure.caption.6}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3}软件设计}{8}{section.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}AD采样}{8}{subsection.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1}ADS1115简介}{8}{subsubsection.3.1.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.2}通信方式}{8}{subsubsection.3.1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{IIC地址的选择}{8}{section*.9}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces ADS1115芯片结构}}{9}{figure.caption.7}\protected@file@percent }
-\newlabel{fig:ADS1115芯片结构}{{7}{9}{ADS1115芯片结构}{figure.caption.7}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces ADS1115引脚定义}}{9}{table.caption.8}\protected@file@percent }
-\newlabel{tab:ADS1115引脚定义}{{1}{9}{ADS1115引脚定义}{table.caption.8}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces ADS1115的IIC地址}}{9}{table.caption.10}\protected@file@percent }
-\newlabel{tab:IIC}{{2}{9}{ADS1115的IIC地址}{table.caption.10}{}}
-\@writefile{toc}{\contentsline {paragraph}{接收模式}{9}{section*.11}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{发送模式}{9}{section*.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}参数分析}{8}{subsection.2.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.6.1}带宽}{8}{subsubsection.2.6.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces OPA2134芯片参数}}{8}{table.caption.7}\protected@file@percent }
+\newlabel{tab:OPA2134}{{1}{8}{OPA2134芯片参数}{table.caption.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.6.2}输入阻抗}{9}{subsubsection.2.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.6.3}输出阻抗}{9}{subsubsection.2.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}软件设计}{9}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}AD采样}{9}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1}ADS1115简介}{9}{subsubsection.3.1.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces ADS1115芯片结构}}{9}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:ADS1115芯片结构}{{7}{9}{ADS1115芯片结构}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.2}通信方式}{9}{subsubsection.3.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{IIC地址的选择}{9}{section*.10}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces ADS1115引脚定义}}{10}{table.caption.9}\protected@file@percent }
+\newlabel{tab:ADS1115引脚定义}{{2}{10}{ADS1115引脚定义}{table.caption.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces ADS1115的IIC地址}}{10}{table.caption.11}\protected@file@percent }
+\newlabel{tab:IIC}{{3}{10}{ADS1115的IIC地址}{table.caption.11}{}}
+\@writefile{toc}{\contentsline {paragraph}{接收模式}{10}{section*.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{发送模式}{10}{section*.13}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.3}ADS1115读写时序流程}{10}{subsubsection.3.1.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces ADS1115读写时序流}}{10}{figure.caption.13}\protected@file@percent }
-\newlabel{fig:IICTimeSequence}{{8}{10}{ADS1115读写时序流}{figure.caption.13}{}}
-\@writefile{toc}{\contentsline {paragraph}{读时序操作步骤}{10}{section*.14}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{写时序操作步骤}{10}{section*.15}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.4}ADS1115输出数据格式}{10}{subsubsection.3.1.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.5}程序流程图}{10}{subsubsection.3.1.5}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces ADS1115程序流程图}}{11}{figure.caption.16}\protected@file@percent }
-\newlabel{fig:ADS1115程序流程图}{{9}{11}{ADS1115程序流程图}{figure.caption.16}{}}
+\@writefile{toc}{\contentsline {paragraph}{读时序操作步骤}{10}{section*.15}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces ADS1115读写时序流}}{11}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:IICTimeSequence}{{8}{11}{ADS1115读写时序流}{figure.caption.14}{}}
+\@writefile{toc}{\contentsline {paragraph}{写时序操作步骤}{11}{section*.16}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.4}ADS1115输出数据格式}{11}{subsubsection.3.1.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.5}程序流程图}{11}{subsubsection.3.1.5}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2}数字电位器}{11}{subsection.3.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}AD5293简介}{11}{subsubsection.3.2.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}程序流程图}{11}{subsubsection.3.2.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.3}AD5293通信}{11}{subsubsection.3.2.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.4}SPI通信简介}{11}{subsubsection.3.2.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces AD5293芯片结构}}{12}{figure.caption.17}\protected@file@percent }
-\newlabel{fig:ad5293芯片结构}{{10}{12}{AD5293芯片结构}{figure.caption.17}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.5}引脚说明}{12}{subsubsection.3.2.5}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces SPI引脚说明}}{12}{table.caption.18}\protected@file@percent }
-\newlabel{tab:SPI}{{3}{12}{SPI引脚说明}{table.caption.18}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.6}程序流程图}{12}{subsubsection.3.2.6}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces AD5293程序流程图}}{13}{figure.caption.19}\protected@file@percent }
-\newlabel{fig:AD5293程序流程图}{{11}{13}{AD5293程序流程图}{figure.caption.19}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}主程序}{13}{subsection.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}主程序介绍}{13}{subsubsection.3.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2}主程序流程图}{13}{subsubsection.3.3.2}\protected@file@percent }
-\newlabel{code:zhu}{{1}{13}{主程序部分代码}{lstlisting.1}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}{\ignorespaces 主程序部分代码}}{13}{lstlisting.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces 主程序流程图}}{14}{figure.caption.20}\protected@file@percent }
-\newlabel{fig:主程序流程图}{{12}{14}{主程序流程图}{figure.caption.20}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}系统测试}{14}{section.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}测试概述}{14}{subsection.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces ADS1115程序流程图}}{12}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:ADS1115程序流程图}{{9}{12}{ADS1115程序流程图}{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces AD5293芯片结构}}{12}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:ad5293芯片结构}{{10}{12}{AD5293芯片结构}{figure.caption.18}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.4}SPI通信简介}{12}{subsubsection.3.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.5}引脚说明}{13}{subsubsection.3.2.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces SPI引脚说明}}{13}{table.caption.19}\protected@file@percent }
+\newlabel{tab:SPI}{{4}{13}{SPI引脚说明}{table.caption.19}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.6}程序流程图}{13}{subsubsection.3.2.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces AD5293程序流程图}}{13}{figure.caption.20}\protected@file@percent }
+\newlabel{fig:AD5293程序流程图}{{11}{13}{AD5293程序流程图}{figure.caption.20}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}主程序}{14}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}主程序介绍}{14}{subsubsection.3.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2}主程序流程图}{14}{subsubsection.3.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces 主程序流程图}}{14}{figure.caption.21}\protected@file@percent }
+\newlabel{fig:主程序流程图}{{12}{14}{主程序流程图}{figure.caption.21}{}}
+\newlabel{code:zhu}{{1}{14}{主程序部分代码}{lstlisting.1}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {1}{\ignorespaces 主程序部分代码}}{14}{lstlisting.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}系统测试}{15}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}测试概述}{15}{subsection.4.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2}基本要求(1)}{15}{subsection.4.2}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces 基本要求(1)测试结果(输入为0.1V时)}}{15}{table.caption.21}\protected@file@percent }
-\newlabel{tab:1_0.1V}{{4}{15}{基本要求(1)测试结果(输入为0.1V时)}{table.caption.21}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces 基本要求(1)测试结果(输入为1V时)}}{15}{table.caption.22}\protected@file@percent }
-\newlabel{tab:1_1V}{{5}{15}{基本要求(1)测试结果(输入为1V时)}{table.caption.22}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces 基本要求(1)测试结果(输入为2V时)}}{16}{table.caption.23}\protected@file@percent }
-\newlabel{tab:1_2V}{{6}{16}{基本要求(1)测试结果(输入为2V时)}{table.caption.23}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}基本要求(2)}{16}{subsection.4.3}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces 基本要求(2)测试结果}}{16}{table.caption.24}\protected@file@percent }
-\newlabel{tab:2_OLED}{{7}{16}{基本要求(2)测试结果}{table.caption.24}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}基本要求(2)}{15}{subsection.4.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces 基本要求(1)测试结果(输入为0.1V时)}}{16}{table.caption.22}\protected@file@percent }
+\newlabel{tab:1_0.1V}{{5}{16}{基本要求(1)测试结果(输入为0.1V时)}{table.caption.22}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces 基本要求(1)测试结果(输入为1V时)}}{16}{table.caption.23}\protected@file@percent }
+\newlabel{tab:1_1V}{{6}{16}{基本要求(1)测试结果(输入为1V时)}{table.caption.23}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.4}基本要求(3)与提高要求(1)}{16}{subsection.4.4}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces 基本要求(2)与提高要求(1)的测试结果}}{17}{table.caption.25}\protected@file@percent }
-\newlabel{tab:3_1}{{8}{17}{基本要求(2)与提高要求(1)的测试结果}{table.caption.25}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}提高要求(2)}{17}{subsection.4.5}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces 提高要求(2)的测试结果}}{17}{table.caption.26}\protected@file@percent }
-\newlabel{tab:4_2}{{9}{17}{提高要求(2)的测试结果}{table.caption.26}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces 基本要求(1)测试结果(输入为2V时)}}{17}{table.caption.24}\protected@file@percent }
+\newlabel{tab:1_2V}{{7}{17}{基本要求(1)测试结果(输入为2V时)}{table.caption.24}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces 基本要求(2)测试结果}}{17}{table.caption.25}\protected@file@percent }
+\newlabel{tab:2_OLED}{{8}{17}{基本要求(2)测试结果}{table.caption.25}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces 基本要求(2)与提高要求(1)的测试结果}}{17}{table.caption.26}\protected@file@percent }
+\newlabel{tab:3_1}{{9}{17}{基本要求(2)与提高要求(1)的测试结果}{table.caption.26}{}}
 \bibcite{perez2011automatic}{1}
 \bibcite{ohlson1974exact}{2}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}提高要求(2)}{18}{subsection.4.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces 提高要求(2)的测试结果}}{18}{table.caption.27}\protected@file@percent }
+\newlabel{tab:4_2}{{10}{18}{提高要求(2)的测试结果}{table.caption.27}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}总结}{18}{section.5}\protected@file@percent }
 \bibcite{martinez2001automatic}{3}
 \bibcite{lu2023}{4}
 \bibcite{lu2023}{5}
@@ -104,15 +111,14 @@
 \bibcite{按键}{8}
 \bibcite{按键}{9}
 \bibcite{按键}{10}
-\@writefile{toc}{\contentsline {section}{\numberline {5}总结}{18}{section.5}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {A}附录1 - 硬件总体仿真电路图(proteus仿真)}{19}{appendix.1.A}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {B}附录2 - 数字电位器的原理图及PCB}{21}{appendix.1.B}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces 数字电位器原理图}}{21}{figure.caption.28}\protected@file@percent }
-\newlabel{fig:数字电位器原理图}{{13}{21}{数字电位器原理图}{figure.caption.28}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces 数字电位器PCB正面}}{21}{figure.caption.29}\protected@file@percent }
-\newlabel{fig:PCB正面}{{14}{21}{数字电位器PCB正面}{figure.caption.29}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces 数字电位器PCB背面}}{22}{figure.caption.30}\protected@file@percent }
-\newlabel{fig:PCB背面}{{15}{22}{数字电位器PCB背面}{figure.caption.30}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces 数字电位器原理图}}{21}{figure.caption.29}\protected@file@percent }
+\newlabel{fig:数字电位器原理图}{{13}{21}{数字电位器原理图}{figure.caption.29}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces 数字电位器PCB正面}}{21}{figure.caption.30}\protected@file@percent }
+\newlabel{fig:PCB正面}{{14}{21}{数字电位器PCB正面}{figure.caption.30}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces 数字电位器PCB背面}}{22}{figure.caption.31}\protected@file@percent }
+\newlabel{fig:PCB背面}{{15}{22}{数字电位器PCB背面}{figure.caption.31}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {C}附录3 - main.c}{22}{appendix.1.C}\protected@file@percent }
 \newlabel{lst:main.c}{{2}{22}{main.c}{lstlisting.2}{}}
 \@writefile{lol}{\contentsline {lstlisting}{\numberline {2}{\ignorespaces main.c}}{22}{lstlisting.2}\protected@file@percent }

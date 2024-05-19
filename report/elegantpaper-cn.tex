@@ -280,6 +280,32 @@
 
 所使用的ADC为ADS1115，其是德州仪器推出的具有IIC接口的16位ADC转换器，超小型X2QFN或VSSOP封装，低功耗（20uA），宽电压输入2.0V-5.5V，可编程数据转换速率8SPS-860SPS，四个单端输入或两个差分输入。ADS1115具有内部低漂移基准源，支持单端或差分输入模式，可通过I2C接口进行编程。
 
+\subsection{参数分析}
+\subsubsection{带宽}
+如下表\ref{tab:OPA2134}的所使用的放大器OPA2134的增益带宽积为8MHz，而根据题目要求可知AGC的最大增益为不会超过12倍，而最大频率100kHz下的增益带宽积为1.2MHz，所以满足题目要求。
+\begin{table}[!ht]
+  \centering
+  \caption{OPA2134芯片参数}
+  \begin{tabular}{|c|c|c|c|}
+  \hline
+      放大器类型 & 运算放大器 & 输入信号类型 & 差分  \\ \hline
+      应用 & 音频设备 & 输出信号类型 & 差分  \\ \hline
+      安装类型 & 通孔 & 典型增加带宽产品 & 8MHz  \\ \hline
+      电源类型 & 双 & 最小CMRR & 86dB  \\ \hline
+      每片芯片通道数目 & 2 & 最低工作温度 & -40°C  \\ \hline
+      封装类型 & PDIP & 尺寸 & 9.81 x 6.35 x 4.57mm  \\ \hline
+      引脚数目 & 8 & 最高工作温度 & +85°C \\ \hline
+  \end{tabular}
+  \label{tab:OPA2134}
+\end{table}
+
+\subsubsection{输入阻抗}
+我们在电路输出端接入有一个电压跟随器，理论的输入电阻为无穷大，实测输入电阻为3MΩ，满足题目要求。
+
+
+\subsubsection{输出阻抗}
+查阅资料可知OPA2134的闭环输出阻抗为0.01Ω，开环输出阻抗为10Ω，本次采用两个OPA2134级联放大，估算可知不会超过1kΩ，满足题目要求。
+
 
 \section{软件设计}
 
