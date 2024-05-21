@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.2)  19 MAY 2024 14:55
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.2)  21 MAY 2024 17:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1212,30 +1212,29 @@ LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 52.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
 (Font)              scaled to size 7.0pt on input line 55.
-
-Overfull \hbox (12.65945pt too wide) in paragraph at lines 55--56
-[]\TU/KaiTi(0)/m/n/10 本 文 完 全 采 用 \TU/texgyretermes(0)/m/n/10 L[]T[]X \TU/KaiTi
-(0)/m/n/10 书 写，|  工 程 细 节 和 完 整 代 码 见 \TU/texgyretermes(0)/m/n/10 GitHub: [][]$
-[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][] []
- []
-
-LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 59.
-LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 59.
-LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 61.
-File: image/DAC电阻网络.png Graphic file (type bmp)
-<image/DAC电阻网络.png>
-LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
-(Font)              scaled to size 10.95pt on input line 69.
 [1
 
 ]
+LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 61.
+LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
+(Font)              scaled to size 14.4pt on input line 61.
+ (./elegantpaper-cn.toc
+LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
+(Font)              scaled to size 10.95pt on input line 1.
+ [2])
+\tf@toc=\write6
+\openout6 = `elegantpaper-cn.toc'.
+
+LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 64.
+File: image/DAC电阻网络.png Graphic file (type bmp)
+<image/DAC电阻网络.png>
+ [3]
 File: image/VCA821的AGC1.jpg Graphic file (type bmp)
 <image/VCA821的AGC1.jpg>
- [2] [3] [4]
-Overfull \hbox (48.86562pt too wide) in paragraph at lines 185--186
+ [4] [5] [6]
+Overfull \hbox (48.86562pt too wide) in paragraph at lines 190--191
 []\TU/texgyretermes(0)/b/n/10.95 PIC18F45K22\TU/SimSun(0)/m/n/10.95 ：| \TU/texg
 yretermes(0)/m/n/10.95 PIC18F45K22 \TU/SimSun(0)/m/n/10.95 是 一 款 高 性 能 的 \TU/te
 xgyretermes(0)/m/n/10.95 8 \TU/SimSun(0)/m/n/10.95 位 单 片 机，|  但 其 性 能 和 功 能 扩 展
@@ -1244,70 +1243,74 @@ xgyretermes(0)/m/n/10.95 8 \TU/SimSun(0)/m/n/10.95 位 单 片 机，|  但 其 
 
 File: image/硬件框图.png Graphic file (type bmp)
 <image/硬件框图.png>
-[5]
+[7]
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 230.
+(Font)              scaled to size 8.0pt on input line 235.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 230.
+(Font)              scaled to size 6.0pt on input line 235.
 File: image/两级放大电路.png Graphic file (type bmp)
 <image/两级放大电路.png>
 File: image/有效值检波电路.png Graphic file (type bmp)
 <image/有效值检波电路.png>
- [6]
+ [8]
 File: image/ADC.png Graphic file (type bmp)
 <image/ADC.png>
- [7] [8]
+ [9] [10]
 File: image/ADS1115简介.png Graphic file (type bmp)
 <image/ADS1115简介.png>
- [9]
+ [11]
 File: image/IIC时序.png Graphic file (type bmp)
 <image/IIC时序.png>
- [10]
+ [12]
 File: image/ADS1115程序流程图.jpg Graphic file (type bmp)
 <image/ADS1115程序流程图.jpg>
 File: image/ad5293芯片结构.png Graphic file (type bmp)
 <image/ad5293芯片结构.png>
- [11] [12]
+ [13] [14]
 File: image/AD5293程序流程图.jpg Graphic file (type bmp)
 <image/AD5293程序流程图.jpg>
- [13]
+ [15]
 File: image/主程序.jpg Graphic file (type bmp)
 <image/主程序.jpg>
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 461.
- [14]
-Overfull \hbox (31.7922pt too wide) in paragraph at lines 507--523
+nput line 466.
+ [16]
+Overfull \hbox (31.7922pt too wide) in paragraph at lines 512--528
  [][] 
  []
 
 
-Overfull \hbox (31.7922pt too wide) in paragraph at lines 529--545
+Overfull \hbox (31.7922pt too wide) in paragraph at lines 534--550
  [][] 
  []
 
 
-Overfull \hbox (31.7922pt too wide) in paragraph at lines 551--567
+Overfull \hbox (31.7922pt too wide) in paragraph at lines 556--572
  [][] 
  []
 
-[15] [16] [17]
+[17] [18] [19]
+
+LaTeX Warning: Reference `tab:分工' on page 20 undefined on input line 643.
+
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 649.
- [18]
-Underfull \hbox (badness 4416) in paragraph at lines 674--676
+(Font)              scaled to size 10.95pt on input line 679.
+[20]
+Underfull \hbox (badness 4416) in paragraph at lines 704--706
 []\TU/texgyretermes(0)/m/it/10.95 stm32f103 |\TU/SimSun(0)/m/it/10.95 — —|  外 部
  中 断 和 事 件  |— —|  检 测 按 键 按 下 点 灯\TU/texgyretermes(0)/m/n/10.95 . [][]$[][][][
 ][] [] [] [] [][][][] [] [][][][] [] [][][] [] [][] []
  []
 
 
-Underfull \hbox (badness 5862) in paragraph at lines 690--692
+Underfull \hbox (badness 5862) in paragraph at lines 720--722
 []\TU/SimSun(0)/m/it/10.95 基 于 \TU/texgyretermes(0)/m/it/10.95 VCA821 \TU/SimSu
 n(0)/m/it/10.95 的 \TU/texgyretermes(0)/m/it/10.95 AGC\TU/SimSun(0)/m/it/10.95 ，
 |  电 压 自 动 增 益 控 制 设 计\TU/texgyretermes(0)/m/n/10.95 . [][]$[][][][][] [] [] []
  [][][][][][][][] [] [][][][][] [] [][][] [] [] []
  []
 
+[21]
 File: 数字电位器真1.pdf Graphic file (type pdf)
 <use 数字电位器真1.pdf>
 File: 数字电位器真1.pdf Graphic file (type pdf)
@@ -1316,14 +1319,14 @@ File: 数字电位器真1.pdf Graphic file (type pdf)
 <use 数字电位器真1.pdf, page 1>
 File: 数字电位器真1.pdf Graphic file (type pdf)
 <use 数字电位器真1.pdf, page 1>
-[19]
+ [22]
 File: 数字电位器真1.pdf Graphic file (type pdf)
 <use 数字电位器真1.pdf, page 1>
 File: 数字电位器真1.pdf Graphic file (type pdf)
 <use 数字电位器真1.pdf, page 1>
 File: 数字电位器真1.pdf Graphic file (type pdf)
 <use 数字电位器真1.pdf, page 1>
- [20
+ [23
 
 ]
 File: image/数字电位器原理图.png Graphic file (type bmp)
@@ -1332,27 +1335,35 @@ File: image/PCB正面.png Graphic file (type bmp)
 <image/PCB正面.png>
 File: image/PCB背面.png Graphic file (type bmp)
 <image/PCB背面.png>
- [21] (./code/main.c [22] [23] [24] [25]) [26] (./elegantpaper-cn.aux)
+ [24]
+File: image/实物图.jpg Graphic file (type bmp)
+<image/实物图.jpg>
+ [25] (./code/main.c [26] [27] [28] [29]) [30]
+(./elegantpaper-cn.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
  ***********
 
+
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `elegantpaper-cn.out' has not changed.
-(rerunfilecheck)             Checksum: A68DB4A4FD236BD9772C7F330084B76F;5887.
+(rerunfilecheck)             Checksum: 1456552A11BF3D595F0C07A3DE62E900;5984.
 Package logreq Info: Writing requests to 'elegantpaper-cn.run.xml'.
 \openout1 = `elegantpaper-cn.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29654 strings out of 474773
- 604362 string characters out of 5761290
- 2055842 words of memory out of 5000000
- 51336 multiletter control sequences out of 15000+600000
+ 29675 strings out of 474773
+ 604700 string characters out of 5761290
+ 2048842 words of memory out of 5000000
+ 51353 multiletter control sequences out of 15000+600000
  566332 words of font info for 122 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,19n,108p,688b,1929s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,19n,108p,688b,1931s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on elegantpaper-cn.pdf (26 pages).
+Output written on elegantpaper-cn.pdf (30 pages).

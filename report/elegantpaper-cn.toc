@@ -1,0 +1,57 @@
+\contentsline {section}{\numberline {1}方案论证}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}方案一: 运算放大器结合倒T型DAC电阻网络}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}方案二: 基于VCA821的AGC电路}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}方案三: 基于数字电位器的AGC电路}{5}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}综合分析}{5}{subsection.1.4}%
+\contentsline {section}{\numberline {2}硬件设计}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}硬件选型}{5}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}运算放大器：OPA2134}{5}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}有效值检波电路：LF353}{6}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}数字电位器：AD5293}{6}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}ADC采样模块：ADS1115}{6}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.5}MCU：STM32F103ZET6}{6}{subsubsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.6}显示屏：OLED显示屏0.96寸}{7}{subsubsection.2.1.6}%
+\contentsline {subsubsection}{\numberline {2.1.7}总结}{7}{subsubsection.2.1.7}%
+\contentsline {subsection}{\numberline {2.2}硬件设计方案}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}可调两级反向放大电路}{8}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}有效值检波电路}{8}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}ADC采样模块}{10}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}参数分析}{10}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}带宽}{10}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}输入阻抗}{11}{subsubsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.3}输出阻抗}{11}{subsubsection.2.6.3}%
+\contentsline {section}{\numberline {3}软件设计}{11}{section.3}%
+\contentsline {subsection}{\numberline {3.1}AD采样}{11}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}ADS1115简介}{11}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}通信方式}{11}{subsubsection.3.1.2}%
+\contentsline {paragraph}{IIC地址的选择}{11}{section*.11}%
+\contentsline {paragraph}{接收模式}{12}{section*.13}%
+\contentsline {paragraph}{发送模式}{12}{section*.14}%
+\contentsline {subsubsection}{\numberline {3.1.3}ADS1115读写时序流程}{12}{subsubsection.3.1.3}%
+\contentsline {paragraph}{读时序操作步骤}{12}{section*.16}%
+\contentsline {paragraph}{写时序操作步骤}{13}{section*.17}%
+\contentsline {subsubsection}{\numberline {3.1.4}ADS1115输出数据格式}{13}{subsubsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.5}程序流程图}{13}{subsubsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.2}数字电位器}{13}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}AD5293简介}{13}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}程序流程图}{13}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}AD5293通信}{13}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}SPI通信简介}{14}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.5}引脚说明}{15}{subsubsection.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.6}程序流程图}{15}{subsubsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.3}主程序}{16}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}主程序介绍}{16}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}主程序流程图}{16}{subsubsection.3.3.2}%
+\contentsline {section}{\numberline {4}系统测试}{17}{section.4}%
+\contentsline {subsection}{\numberline {4.1}测试概述}{17}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}基本要求(1)}{17}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}基本要求(2)}{17}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}基本要求(3)与提高要求(1)}{18}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}提高要求(2)}{20}{subsection.4.5}%
+\contentsline {section}{\numberline {5}团队分工}{20}{section.5}%
+\contentsline {section}{\numberline {6}总结}{20}{section.6}%
+\contentsline {section}{\numberline {7}附录}{22}{section.7}%
+\contentsline {section}{\numberline {A}硬件总体仿真电路图(proteus仿真)}{22}{appendix.1.A}%
+\contentsline {section}{\numberline {B}数字电位器的原理图及PCB}{24}{appendix.1.B}%
+\contentsline {section}{\numberline {C}硬件实物图}{26}{appendix.1.C}%
+\contentsline {section}{\numberline {D}main.c}{26}{appendix.1.D}%

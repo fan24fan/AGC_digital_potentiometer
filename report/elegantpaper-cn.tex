@@ -51,11 +51,14 @@
 
 \begin{abstract}
   本文实现了一种自动增益控制放大器的设计和实现。通过方案论证，我们选择了基于数字电位器的AGC电路方案，该方案在电路结构和调节方面具有明显优势。硬件设计包括运算放大器、有效值检波电路、数字电位器、ADC采样模块、MCU和显示屏的选型与设计等。软件设计部分详细介绍了AD采样、数字电位器调节以及主程序的编写等。系统测试表明，所设计的自动增益控制系统在不同输入信号条件下均能保持良好的性能，满足设计要求。在测试过程中，我们也发现了信号源准确性和电路共地问题对系统性能的影响。最终，本设计验证了其可靠性和稳定性，为自动增益控制领域提供了一种有效的解决方案。
-  
-  本文完全采用\LaTeX{}书写，工程细节和完整代码见 GitHub: \url{https://github.com/wanansu/AGC_digital_potentiometer}
+
+  本文采用\LaTeX{}书写，工程细节和完整代码见 GitHub: \url{https://github.com/wanansu/AGC_digital_potentiometer}
   \keywords{自动增益控制放大器(AGC)，数字电位器，运算放大器，有效值检波电路，ADC采样，STM32单片机}
 \end{abstract}
 
+\newpage
+
+\begin{center}\tableofcontents\end{center}
 \section{方案论证}
 
 \subsection{方案一: 运算放大器结合倒T型DAC电阻网络}
@@ -111,7 +114,9 @@
 
 \subsection{方案三: 基于数字电位器的AGC电路}
 
-采用基于数字电位器的AGC电路。设计一个两级反相放大电路，通过数字电位器调节电路的放大倍数，使用STM32单片机控制数字电位器，实现自动增益调节。对于交流信号，使用有效值检波电路将其转换为直流信号。利用ADC模块采集直流信号，通过单片机处理，实现对输入信号与输出信号的精确测量和调节。
+采用基于数字电位器的AGC电路。设计一个两级反相放大电路，通过数字电位器调节电路的放大倍数，使用STM32单片机控制数字电位器，实现自动增益调节。对于交流信号，使用有效值检波电路将其转换为直流信号。利用ADC模块采集直流信号，通过单片机处理，实现对输入信号与输出信号的精确测量和调节。具体仿真图见附录A。
+
+%图\ref{fig:数字电位器原理图}。
 
 \begin{itemize}
   \item  优点
@@ -287,14 +292,14 @@
   \centering
   \caption{OPA2134芯片参数}
   \begin{tabular}{|c|c|c|c|}
-  \hline
-      放大器类型 & 运算放大器 & 输入信号类型 & 差分  \\ \hline
-      应用 & 音频设备 & 输出信号类型 & 差分  \\ \hline
-      安装类型 & 通孔 & 典型增加带宽产品 & 8MHz  \\ \hline
-      电源类型 & 双 & 最小CMRR & 86dB  \\ \hline
-      每片芯片通道数目 & 2 & 最低工作温度 & -40°C  \\ \hline
-      封装类型 & PDIP & 尺寸 & 9.81 x 6.35 x 4.57mm  \\ \hline
-      引脚数目 & 8 & 最高工作温度 & +85°C \\ \hline
+    \hline
+    放大器类型    & 运算放大器 & 输入信号类型   & 差分                   \\ \hline
+    应用       & 音频设备  & 输出信号类型   & 差分                   \\ \hline
+    安装类型     & 通孔    & 典型增加带宽产品 & 8MHz                 \\ \hline
+    电源类型     & 双     & 最小CMRR   & 86dB                 \\ \hline
+    每片芯片通道数目 & 2     & 最低工作温度   & -40°C                \\ \hline
+    封装类型     & PDIP  & 尺寸       & 9.81 x 6.35 x 4.57mm \\ \hline
+    引脚数目     & 8     & 最高工作温度   & +85°C                \\ \hline
   \end{tabular}
   \label{tab:OPA2134}
 \end{table}
@@ -634,6 +639,31 @@ void just_vol(float vol_ref,float vol,float output_singal)
 
 值得注意的是，本电路在100kHz的高频下，仍然能保持较好的自动增益控制效果，未出现因频率过高导致的衰减现象。与此相比，网上很多AGC电路设计都会出现频率过高导致的衰减现象，本设计的电路在高频下仍然能保持较好的自动增益控制效果，具有较好的性能。
 
+\section{团队分工}
+我们的分工如表\ref{tab:分工}所示。
+\begin{table}[!ht]
+	\centering
+	\caption{团队分工}
+	\begin{tabular}{ccc}
+		\textbf{项目} & \textbf{卜骏凡(\%)} & \textbf{胡海涛(\%)} \\ \hline
+		\textbf{仿真:方案一} & 30 & 70 \\ 
+		\textbf{仿真:方案二} & 70 & 30 \\ 
+		\textbf{仿真:方案三} & 50 & 50 \\ 
+		\textbf{硬件:可调两级放大电路} & 50 & 50 \\ 
+		\textbf{硬件:有效值检波电路} & 70 & 30 \\ 
+		\textbf{硬件:ADC采样模块} & 40 & 60 \\ 
+		\textbf{硬件:参数分析} & 50 & 50 \\ 
+		\textbf{软件:AD采样} & 100 & 0 \\ 
+		\textbf{软件:数字电位器} & 0 & 100 \\ 
+		\textbf{软件:主程序} & 45 & 55 \\ 
+		\textbf{测试:基本1} & 60 & 40 \\ 
+		\textbf{测试:基本2} & 40 & 60 \\ 
+		\textbf{测试:基本3和提升1} & 50 & 50 \\ 
+		\textbf{测试:提升2} & 50 & 50 \\ 
+	\end{tabular}
+	\label{分工}
+\end{table}
+
 \section{总结}
 本设计实现了一个自动增益控制系统，能够自动调节输入信号的放大倍数，使输出信号的幅度保持在合适的范围内。系统硬件设计合理，性能稳定，满足了设计要求。经过系统测试，系统的功能、性能和安全性均符合要求，测试结果良好，验证了系统的可靠性和稳定性。
 
@@ -692,12 +722,12 @@ void just_vol(float vol_ref,float vol,float output_singal)
 \end{thebibliography}
 
 
-
+\section{附录}
 \begin{appendices}
-  \section{附录1 - 硬件总体仿真电路图(proteus仿真)}
+  \section{硬件总体仿真电路图(proteus仿真)}
   \includepdf[pages=-,angle=90]{数字电位器真1.pdf}
 
-  \section{附录2 - 数字电位器的原理图及PCB}
+  \section{数字电位器的原理图及PCB}
   \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.8\textwidth]{数字电位器原理图.png}
@@ -719,7 +749,15 @@ void just_vol(float vol_ref,float vol,float output_singal)
     \label{fig:PCB背面}
   \end{figure}
 
-  \section{附录3 - main.c}
+  \section{硬件实物图}
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{实物图.jpg}
+    \caption{硬件实物图}
+    \label{fig:实物图}
+  \end{figure}
+
+  \section{main.c}
   \lstinputlisting[caption={main.c}, label={lst:main.c}]{code/main.c}
 \end{appendices}
 
