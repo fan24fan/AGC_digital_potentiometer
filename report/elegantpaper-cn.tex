@@ -26,6 +26,7 @@
 \newcommand{\ccr}[1]{\makecell{{\color{#1}\rule{1cm}{1cm}}}}
 
 \begin{document}
+\pagenumbering{gobble} % 关闭页码
 % Customizing the listings
 \lstset{ %
   language=C,                % Choose the language of the code
@@ -59,8 +60,11 @@
 \newpage
 
 \begin{center}\tableofcontents\end{center}
-\section{方案论证}
 
+\newpage
+\section{方案论证}
+\pagenumbering{arabic}
+\setcounter{page}{1} % 从1开始计数
 \subsection{方案一: 运算放大器结合倒T型DAC电阻网络}
 
 使用运算放大器结合倒T型数字模拟转换器（DAC）电阻网络来实现自动增益控制（AGC）电路。该方案的核心是通过数字信号控制倒T型DAC电阻网络的等效电阻，从而调节运算放大器的增益。输入信号接入运算放大器的输入端，输出信号通过反馈电阻网络回馈到反相输入端，以实现所需增益。设计信号检测电路，通过模数转换器（ADC）和STM32单片机实时监测和调整输入信号的幅度。

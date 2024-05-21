@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.2)  21 MAY 2024 17:08
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.2)  21 MAY 2024 17:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1186,20 +1186,20 @@ File: lstlang1.sty 2024/02/21 1.10 listings language file
 File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
 )
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 50.
+(Font)              scaled to size 17.28pt on input line 51.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
-(Font)              scaled to size 17.28pt on input line 50.
+(Font)              scaled to size 17.28pt on input line 51.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 50.
+(Font)              scaled to size 12.0pt on input line 51.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 50.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
+(Font)              scaled to size 10.0pt on input line 51.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
 
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
 
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1209,16 +1209,16 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Warning: No \author given.
 
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 52.
+(Font)              scaled to size 10.0pt on input line 53.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 55.
+(Font)              scaled to size 7.0pt on input line 56.
 [1
 
 ]
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 61.
+(Font)              scaled to size 14.4pt on input line 62.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 61.
+(Font)              scaled to size 14.4pt on input line 62.
  (./elegantpaper-cn.toc
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
 (Font)              scaled to size 10.95pt on input line 1.
@@ -1226,91 +1226,95 @@ LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
 \tf@toc=\write6
 \openout6 = `elegantpaper-cn.toc'.
 
+ [3]
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 64.
+(Font)              scaled to size 12.0pt on input line 68.
 File: image/DAC电阻网络.png Graphic file (type bmp)
 <image/DAC电阻网络.png>
- [3]
 File: image/VCA821的AGC1.jpg Graphic file (type bmp)
 <image/VCA821的AGC1.jpg>
- [4] [5] [6]
-Overfull \hbox (48.86562pt too wide) in paragraph at lines 190--191
+ [1] [2] [3]
+Overfull \hbox (48.86562pt too wide) in paragraph at lines 194--195
 []\TU/texgyretermes(0)/b/n/10.95 PIC18F45K22\TU/SimSun(0)/m/n/10.95 ：| \TU/texg
 yretermes(0)/m/n/10.95 PIC18F45K22 \TU/SimSun(0)/m/n/10.95 是 一 款 高 性 能 的 \TU/te
 xgyretermes(0)/m/n/10.95 8 \TU/SimSun(0)/m/n/10.95 位 单 片 机，|  但 其 性 能 和 功 能 扩 展
  性 与 \TU/texgyretermes(0)/m/n/10.95 STM32F103ZET6
  []
 
+[4]
 File: image/硬件框图.png Graphic file (type bmp)
 <image/硬件框图.png>
-[7]
+ [5]
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 235.
+(Font)              scaled to size 8.0pt on input line 239.
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 235.
+(Font)              scaled to size 6.0pt on input line 239.
 File: image/两级放大电路.png Graphic file (type bmp)
 <image/两级放大电路.png>
 File: image/有效值检波电路.png Graphic file (type bmp)
 <image/有效值检波电路.png>
- [8]
+ [6]
 File: image/ADC.png Graphic file (type bmp)
 <image/ADC.png>
- [9] [10]
+ [7]
 File: image/ADS1115简介.png Graphic file (type bmp)
 <image/ADS1115简介.png>
- [11]
+ [8] [9]
 File: image/IIC时序.png Graphic file (type bmp)
 <image/IIC时序.png>
- [12]
+ [10]
 File: image/ADS1115程序流程图.jpg Graphic file (type bmp)
 <image/ADS1115程序流程图.jpg>
+ [11]
 File: image/ad5293芯片结构.png Graphic file (type bmp)
 <image/ad5293芯片结构.png>
- [13] [14]
 File: image/AD5293程序流程图.jpg Graphic file (type bmp)
 <image/AD5293程序流程图.jpg>
- [15]
+ [12]
 File: image/主程序.jpg Graphic file (type bmp)
 <image/主程序.jpg>
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 466.
- [16]
-Overfull \hbox (31.7922pt too wide) in paragraph at lines 512--528
+nput line 470.
+ [13] [14]
+Overfull \hbox (31.7922pt too wide) in paragraph at lines 516--532
  [][] 
  []
 
 
-Overfull \hbox (31.7922pt too wide) in paragraph at lines 534--550
+Overfull \hbox (31.7922pt too wide) in paragraph at lines 538--554
  [][] 
  []
 
 
-Overfull \hbox (31.7922pt too wide) in paragraph at lines 556--572
+Overfull \hbox (31.7922pt too wide) in paragraph at lines 560--576
  [][] 
  []
 
-[17] [18] [19]
+[15]
 
-LaTeX Warning: Reference `tab:分工' on page 20 undefined on input line 643.
+LaTeX Warning: Text page 16 contains only floats.
+
+[16] [17]
+
+LaTeX Warning: Reference `tab:分工' on page 18 undefined on input line 647.
 
 LaTeX Font Info:    Font shape `TU/texgyretermes(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 679.
-[20]
-Underfull \hbox (badness 4416) in paragraph at lines 704--706
+(Font)              scaled to size 10.95pt on input line 683.
+[18]
+Underfull \hbox (badness 4416) in paragraph at lines 708--710
 []\TU/texgyretermes(0)/m/it/10.95 stm32f103 |\TU/SimSun(0)/m/it/10.95 — —|  外 部
  中 断 和 事 件  |— —|  检 测 按 键 按 下 点 灯\TU/texgyretermes(0)/m/n/10.95 . [][]$[][][][
 ][] [] [] [] [][][][] [] [][][][] [] [][][] [] [][] []
  []
 
 
-Underfull \hbox (badness 5862) in paragraph at lines 720--722
+Underfull \hbox (badness 5862) in paragraph at lines 724--726
 []\TU/SimSun(0)/m/it/10.95 基 于 \TU/texgyretermes(0)/m/it/10.95 VCA821 \TU/SimSu
 n(0)/m/it/10.95 的 \TU/texgyretermes(0)/m/it/10.95 AGC\TU/SimSun(0)/m/it/10.95 ，
 |  电 压 自 动 增 益 控 制 设 计\TU/texgyretermes(0)/m/n/10.95 . [][]$[][][][][] [] [] []
  [][][][][][][][] [] [][][][][] [] [][][] [] [] []
  []
 
-[21]
 File: 数字电位器真1.pdf Graphic file (type pdf)
 <use 数字电位器真1.pdf>
 File: 数字电位器真1.pdf Graphic file (type pdf)
@@ -1319,14 +1323,14 @@ File: 数字电位器真1.pdf Graphic file (type pdf)
 <use 数字电位器真1.pdf, page 1>
 File: 数字电位器真1.pdf Graphic file (type pdf)
 <use 数字电位器真1.pdf, page 1>
- [22]
+[19]
 File: 数字电位器真1.pdf Graphic file (type pdf)
 <use 数字电位器真1.pdf, page 1>
 File: 数字电位器真1.pdf Graphic file (type pdf)
 <use 数字电位器真1.pdf, page 1>
 File: 数字电位器真1.pdf Graphic file (type pdf)
 <use 数字电位器真1.pdf, page 1>
- [23
+ [20
 
 ]
 File: image/数字电位器原理图.png Graphic file (type bmp)
@@ -1335,10 +1339,10 @@ File: image/PCB正面.png Graphic file (type bmp)
 <image/PCB正面.png>
 File: image/PCB背面.png Graphic file (type bmp)
 <image/PCB背面.png>
- [24]
+ [21]
 File: image/实物图.jpg Graphic file (type bmp)
 <image/实物图.jpg>
- [25] (./code/main.c [26] [27] [28] [29]) [30]
+ [22] (./code/main.c [23] [24] [25] [26]) [27]
 (./elegantpaper-cn.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -1358,12 +1362,12 @@ Package logreq Info: Writing requests to 'elegantpaper-cn.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29675 strings out of 474773
- 604700 string characters out of 5761290
+ 29676 strings out of 474773
+ 604711 string characters out of 5761290
  2048842 words of memory out of 5000000
- 51353 multiletter control sequences out of 15000+600000
+ 51354 multiletter control sequences out of 15000+600000
  566332 words of font info for 122 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 94i,19n,108p,688b,1931s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,19n,108p,688b,1937s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on elegantpaper-cn.pdf (30 pages).
